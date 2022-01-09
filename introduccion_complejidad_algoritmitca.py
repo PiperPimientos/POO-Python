@@ -1,4 +1,7 @@
 import time
+import sys
+
+sys.setrecursionlimit(500000)
 
 def factorial(n):
     respuesta = 1
