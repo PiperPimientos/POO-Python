@@ -13,4 +13,4 @@ if __name__ == '__main__':
         y_vals.append(val)
 
     fig.line(x_vals, y_vals, line_width=2)
-    show()
+    show(fig)
